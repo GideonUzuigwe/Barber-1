@@ -1,0 +1,32 @@
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title h2 {
+  font-size: var(--heading-2-fz);
+  font-weight: var(--heading-2-fw);
+  color: var(--title-color);
+}
+
+.title p {
+  max-width: 500px;
+  margin: 20px auto;
+  color: var(--p-color);
+  line-height: 2;
+}
+
+.title.leftmode {
+  text-align: left;
+}
+
+.title.leftmode p {
+  margin: 20px 0;
+}
+
+/* ------------------------- Media Queries -------------------------- */
+@media (max-width: 1100px) {
+  .title h2 {
+    font-size: var(--heading-2-md);
+  }
+}

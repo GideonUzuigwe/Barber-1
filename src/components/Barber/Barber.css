@@ -1,0 +1,42 @@
+.barber {
+  max-width: 340px;
+  transition: 0.5s;
+}
+
+.barber_img {
+  overflow: hidden;
+}
+
+.barber_img img {
+  transition: 0.5s;
+}
+
+.barber:hover .barber_img img {
+  transform: scale(1.1);
+}
+
+.barber_texts {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.barber_texts h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: var(--title-color);
+}
+
+.barber_texts p {
+  color: var(--btn-bg-color);
+}
+
+.barbers {
+  margin-top: 20px;
+  margin-bottom: 10rem;
+}
+
+/* -------------------------------- MEDIA QUERIES --------------------------- */
+.barbers {
+  margin-bottom: 5rem;
+}
